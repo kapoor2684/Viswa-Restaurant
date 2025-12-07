@@ -1,0 +1,1466 @@
+{
+  "foodcategories": [
+    {
+      "name": "Pizza",
+      "image": "https://th.bing.com/th/id/OIP.v5MOu17QJxGpFjmJdIsTpwHaHa?w=156&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Burgers",
+      "image": "https://www.mashed.com/img/gallery/burger-recipes-thatll-make-you-king-of-the-cookout/l-intro-1614623774.jpg"
+    },
+    {
+      "name": "Pasta",
+      "image": "https://centslessdeals.com/wp-content/uploads/2022/09/Skillet-Pasta-With-Ground-Beef-TheShortcutKitchen-9-1024x1536.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Sushi",
+      "image": "https://th.bing.com/th/id/R.26ee2d103ba302e151b3956bbb4349e0?rik=3aEzpLUG57eDYw&riu=http%3a%2f%2fwww.justonecookbook.com%2fwp-content%2fuploads%2f2016%2f04%2fDragon-Roll-New-600x400.jpg&ehk=q2v6OmQo6Qp0tUylU7179UTXc0DXwEKR4wBZZvjq%2bIs%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+      "id": "4"
+    },
+    {
+      "name": "Desserts",
+      "image": "https://www.tasteofhome.com/wp-content/uploads/2020/03/Berry-Cool-Cream-and-Pretzel-Pie_EXPS_TOHJJ20_242812_E02_05_6b.jpg",
+      "id": "5"
+    },
+    {
+      "name": "Salads",
+      "image": "https://bing.com/th?id=OSK.13be0506ce55f980c1f10b8f2895edd7",
+      "id": "6"
+    },
+    {
+      "name": "Seafood",
+      "image": "https://th.bing.com/th/id/OIP.hFfkFBNFzJ9iR5UB-Yaf1wHaLE?pid=ImgDet&w=184&h=276&c=7&dpr=1.3",
+      "id": "7"
+    },
+    {
+      "name": "BBQ",
+      "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Barbeque-Kebab-750x750.jpg",
+      "id": "8"
+    },
+    {
+      "name": "Indian",
+      "image": "",
+       "id": "9"
+    },
+    {
+      "name": "Chinese",
+      "image": "https://th.bing.com/th/id/OIP.z1kJZthPJwFfn6wnnYHYMQHaFl?rs=1&pid=ImgDetMain",
+      "id": "10"
+    }
+  ],
+  "foodItems": [
+    {
+      "name": "Pepperoni Pizza ",
+      "category": "Pizza",
+      "type": "Non-Veg",
+      "price": "398",
+      "image": "https://recipes.net/wp-content/uploads/2023/05/papa-johns-pepperoni-pizza-recipe_73a08afc185dba371d10414961f2cb0c.jpeg",
+      "description": "Spicy pepperoni slices on a bed of melted mozzarella.",
+      "ingredients": [
+        "Tomato Sauce",
+        "Mozzarella",
+        "Pepperoni"
+      ],
+      "available": true,
+      "rating": "4.8",
+      "reviews": 250,
+      "likes": 350,
+      "discount": "0%",
+      "calories": "949",
+      "specialInstructions": "Add jalapeños for extra spice",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Classic Cheeseburger",
+      "category": "Burgers",
+      "type": "Non-Veg",
+      "price": 8.5,
+      "image": "https://www.sargento.com/assets/Uploads/Recipe/Image/burgercampNachos_07__FillWzExNzAsNTgzXQ.jpg",
+      "description": "Juicy beef patty with melted cheese, lettuce, and tomato.",
+      "ingredients": [
+        "Beef Patty",
+        "Cheese",
+        "Lettuce",
+        "Tomato",
+        "Bun"
+      ],
+      "available": true,
+      "rating": 4.5,
+      "reviews": 150,
+      "likes": 220,
+      "discount": "10%",
+      "calories": 700,
+      "specialInstructions": "No pickles by default"
+    },
+    {
+      "id": "4",
+      "name": "Veggie Burger",
+      "category": "Burgers",
+      "type": "Veg",
+      "price": 7.5,
+      "image": "https://sweetsimplevegan.com/wp-content/uploads/2019/06/Easy-5-Ingredient-Veggie-Burgers-Sweet-Simple-Vegan-thumbnail.jpg",
+      "description": "A delicious plant-based patty with fresh veggies.",
+      "ingredients": [
+        "Veggie Patty",
+        "Lettuce",
+        "Tomato",
+        "Onion",
+        "Bun"
+      ],
+      "available": true,
+      "rating": 4.4,
+      "reviews": 120,
+      "likes": 180,
+      "discount": "15%",
+      "calories": 600,
+      "specialInstructions": "Add avocado for extra flavor"
+    },
+    {
+      "id": "6",
+      "name": "California Roll",
+      "category": "Sushi",
+      "type": "Non-Veg",
+      "price": 9,
+      "image": "https://facts.net/wp-content/uploads/2023/07/california-roll-close-up-shot.jpg",
+      "description": "A sushi roll with crab, avocado, and cucumber.",
+      "ingredients": [
+        "Crab",
+        "Avocado",
+        "Cucumber",
+        "Rice",
+        "Seaweed"
+      ],
+      "available": true,
+      "rating": 4.7,
+      "reviews": 170,
+      "likes": 210,
+      "discount": "5%",
+      "calories": 300,
+      "specialInstructions": "Add spicy mayo on request"
+    },
+    {
+      "id": "7",
+      "name": "Chocolate Lava Cake",
+      "category": "Desserts",
+      "type": "Veg",
+      "price": 6.5,
+      "image": "https://gimmedelicious.com/wp-content/uploads/2020/01/Chocolate-Molten-Lava-Cakes-2-3.jpg",
+      "description": "Warm chocolate cake with a gooey molten center.",
+      "ingredients": [
+        "Chocolate",
+        "Flour",
+        "Sugar",
+        "Eggs",
+        "Butter"
+      ],
+      "available": true,
+      "rating": 4.9,
+      "reviews": 300,
+      "likes": 400,
+      "discount": "0%",
+      "calories": 500,
+      "specialInstructions": "Serve with vanilla ice cream"
+    },
+    {
+      "name": "Caesar Salad",
+      "category": "Salads",
+      "type": "Non-Veg",
+      "price": "199",
+      "image": "https://www.thespruceeats.com/thmb/Z6IWF7c9zywuU9maSIimGLbHoI4=/3000x2000/filters:fill(auto,1)/classic-caesar-salad-recipe-996054-Hero_01-33c94cc8b8e841ee8f2a815816a0af95.jpg",
+      "description": "Crisp romaine lettuce with croutons, parmesan, and Caesar dressing.",
+      "ingredients": [
+        "Romaine Lettuce",
+        "Croutons",
+        "Parmesan",
+        "Caesar Dressing",
+        "Chicken"
+      ],
+      "available": true,
+      "rating": 4.5,
+      "reviews": 140,
+      "likes": 190,
+      "discount": "10%",
+      "calories": 350,
+      "specialInstructions": "No anchovies by default",
+      "id": "8"
+    },
+    {
+      "id": "10",
+      "name": "BBQ Ribs",
+      "category": "BBQ",
+      "type": "Non-Veg",
+      "price": 22,
+      "image": "https://delishar.com/wp-content/uploads/2013/08/Slow-Cooked-BBQ-Ribs-4.jpg",
+      "description": "Slow-cooked ribs with a smoky BBQ glaze.",
+      "ingredients": [
+        "Pork Ribs",
+        "BBQ Sauce",
+        "Spices"
+      ],
+      "available": true,
+      "rating": 4.9,
+      "reviews": 260,
+      "likes": 320,
+      "discount": "0%",
+      "calories": 1200,
+      "specialInstructions": "Extra sauce on the side"
+    },
+    {
+      "id": "11",
+      "name": "Butter Chicken",
+      "category": "Indian",
+      "type": "Non-Veg",
+      "price": 15,
+      "image": "https://thehappyfoodie.co.uk/wp-content/uploads/2023/03/Butter_Chicken-1024x1536.jpg",
+      "description": "Creamy tomato-based curry with tender chicken.",
+      "ingredients": [
+        "Chicken",
+        "Tomato",
+        "Cream",
+        "Spices"
+      ],
+      "available": true,
+      "rating": 4.7,
+      "reviews": 240,
+      "likes": 300,
+      "discount": "10%",
+      "calories": 750,
+      "specialInstructions": "Adjust spice level on request"
+    },
+    {
+      "name": "Kung Pao Chicken",
+      "category": "Chinese",
+      "type": "Non-Veg",
+      "price": 13.5,
+      "image": "https://www.platingsandpairings.com/wp-content/uploads/2016/08/slow-cooker-kung-pao-chicken-7.jpg",
+      "description": "Spicy stir-fried chicken with peanuts and vegetables.",
+      "ingredients": [
+        "Chicken",
+        "Peanuts",
+        "Vegetables",
+        "Chili",
+        "Soy Sauce"
+      ],
+      "available": true,
+      "rating": 4.6,
+      "reviews": 190,
+      "likes": 240,
+      "discount": "5%",
+      "calories": 650,
+      "specialInstructions": "No peanuts on request",
+      "id": "12"
+    },
+    {
+      "id": "13",
+      "name": "Hawaiian Pizza",
+      "category": "Pizza",
+      "type": "Non-Veg",
+      "price": 11.5,
+      "image": "https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?cs=srgb&dl=close-up-cooking-dinner-46239.jpg&fm=jpg",
+      "description": "Pizza with ham, pineapple, and mozzarella.",
+      "ingredients": [
+        "Tomato Sauce",
+        "Mozzarella",
+        "Ham",
+        "Pineapple"
+      ],
+      "available": true,
+      "rating": 4.4,
+      "reviews": 130,
+      "likes": 170,
+      "discount": "0%",
+      "calories": 850,
+      "specialInstructions": "Extra pineapple on request"
+    },
+    {
+      "id": "14",
+      "name": "Mushroom Risotto",
+      "category": "Pasta",
+      "type": "Veg",
+      "price": 13,
+      "image": "https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?cs=srgb&dl=close-up-cooking-dinner-46239.jpg&fm=jpg",
+      "description": "Creamy risotto with sautéed mushrooms and parmesan.",
+      "ingredients": [
+        "Arborio Rice",
+        "Mushrooms",
+        "Parmesan",
+        "Butter"
+      ],
+      "available": true,
+      "rating": 4.5,
+      "reviews": 160,
+      "likes": 200,
+      "discount": "0%",
+      "calories": 700,
+      "specialInstructions": "Add truffle oil for extra flavor"
+    },
+    {
+      "name": "Dragon Roll",
+      "category": "Sushi",
+      "type": "Non-Veg",
+      "price": 14,
+      "image": "https://th.bing.com/th/id/R.26ee2d103ba302e151b3956bbb4349e0?rik=3aEzpLUG57eDYw&riu=http%3a%2f%2fwww.justonecookbook.com%2fwp-content%2fuploads%2f2016%2f04%2fDragon-Roll-New-600x400.jpg&ehk=q2v6OmQo6Qp0tUylU7179UTXc0DXwEKR4wBZZvjq%2bIs%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+      "description": "Sushi roll with eel, avocado, and cucumber.",
+      "ingredients": [
+        "Eel",
+        "Avocado",
+        "Cucumber",
+        "Rice",
+        "Seaweed"
+      ],
+      "available": true,
+      "rating": 4.8,
+      "reviews": 210,
+      "likes": 260,
+      "discount": "0%",
+      "calories": 400,
+      "specialInstructions": "Add spicy mayo on request",
+      "id": "15"
+    },
+    {
+      "name": "Tiramisu",
+      "category": "Desserts",
+      "type": "Veg",
+      "price": 7,
+      "image": "https://th.bing.com/th/id/OIP.Ol8xQ5utlrCmWUyNVZkZIQAAAA?rs=1&pid=ImgDetMain",
+      "description": "Classic Italian dessert with coffee-soaked ladyfingers and mascarpone.",
+      "ingredients": [
+        "Ladyfingers",
+        "Mascarpone",
+        "Coffee",
+        "Cocoa"
+      ],
+      "available": true,
+      "rating": 4.9,
+      "reviews": 280,
+      "likes": 350,
+      "discount": "0%",
+      "calories": 450,
+      "specialInstructions": "Add extra cocoa on request",
+      "id": "16"
+    },
+    {
+      "name": "Greek Salad",
+      "category": "Salads",
+      "type": "Veg",
+      "price": 8.5,
+      "image": "https://1.bp.blogspot.com/-HNMb57OLmPY/UvbPezRbmFI/AAAAAAAAADo/XxyNN6-uX7o/s1600/healthy-greek-salad-recipe.jpg",
+      "description": "Fresh salad with tomatoes, cucumbers, olives, and feta.",
+      "ingredients": [
+        "Tomatoes",
+        "Cucumbers",
+        "Olives",
+        "Feta",
+        "Olive Oil"
+      ],
+      "available": true,
+      "rating": 4.6,
+      "reviews": 150,
+      "likes": 200,
+      "discount": "0%",
+      "calories": 300,
+      "specialInstructions": "No onions by default",
+      "id": "17"
+    },
+    {
+      "name": "Shrimp Scampi",
+      "category": "Seafood",
+      "type": "Non-Veg",
+      "price": 16.5,
+      "image": "https://www.thechunkychef.com/wp-content/uploads/2017/08/One-Pot-10-Minute-Shrimp-Scampi-6.jpg",
+      "description": "Garlic butter shrimp served over pasta.",
+      "ingredients": [
+        "Shrimp",
+        "Garlic",
+        "Butter",
+        "Pasta",
+        "Parsley"
+      ],
+      "available": true,
+      "rating": 4.7,
+      "reviews": 190,
+      "likes": 240,
+      "discount": "0%",
+      "calories": 550,
+      "specialInstructions": "Add extra garlic on request",
+      "id": "18"
+    },
+    {
+      "name": "Pulled Pork Sandwich",
+      "category": "BBQ",
+      "type": "Non-Veg",
+      "price": 12,
+      "image": "https://www.oursweetadventures.com/wp-content/uploads/2020/09/Texas-Pulled-Pork-4-797x1024.jpg",
+      "description": "Slow-cooked pulled pork with BBQ sauce on a bun.",
+      "ingredients": [
+        "Pork",
+        "BBQ Sauce",
+        "Bun",
+        "Coleslaw"
+      ],
+      "available": true,
+      "rating": 4.8,
+      "reviews": 220,
+      "likes": 270,
+      "discount": "0%",
+      "calories": 800,
+      "specialInstructions": "Extra coleslaw on the side",
+      "id": "19"
+    },
+    {
+      "name": "Paneer Tikka",
+      "category": "Indian",
+      "type": "Veg",
+      "price": 11,
+      "image": "https://th.bing.com/th/id/OIP.-ndMbbnDa5vPzgLYrBbLMgHaE7?rs=1&pid=ImgDetMain",
+      "description": "Grilled paneer cubes marinated in spices.",
+      "ingredients": [
+        "Paneer",
+        "Spices",
+        "Yogurt",
+        "Bell Peppers"
+      ],
+      "available": true,
+      "rating": 4.6,
+      "reviews": 170,
+      "likes": 220,
+      "discount": "0%",
+      "calories": 400,
+      "specialInstructions": "Add extra spice on request",
+      "id": "20"
+    },
+    {
+      "name": "Sweet and Sour Chicken",
+      "category": "Chinese",
+      "type": "Non-Veg",
+      "price": 12.5,
+      "image": "https://samosastreet.com/wp-content/uploads/Sweet-Sour-Paneer-4.jpg",
+      "description": "Crispy chicken in a tangy sweet and sour sauce.",
+      "ingredients": [
+        "Chicken",
+        "Bell Peppers",
+        "Pineapple",
+        "Sauce"
+      ],
+      "available": true,
+      "rating": 4.5,
+      "reviews": 160,
+      "likes": 210,
+      "discount": "0%",
+      "calories": 600,
+      "specialInstructions": "No pineapple on request",
+      "id": "21"
+    },
+    {
+      "name": "Vegetarian Pizza",
+      "category": "Pizza",
+      "type": "Veg",
+      "price": 11,
+      "image": "https://www.orchidsandsweettea.com/wp-content/uploads/2019/05/Veggie-Pizza-2-of-5-e1691215701129-778x1024.jpg",
+      "description": "Pizza loaded with fresh vegetables and mozzarella.",
+      "ingredients": [
+        "Tomato Sauce",
+        "Mozzarella",
+        "Bell Peppers",
+        "Mushrooms",
+        "Olives"
+      ],
+      "available": true,
+      "rating": 4.4,
+      "reviews": 140,
+      "likes": 180,
+      "discount": "0%",
+      "calories": 750,
+      "specialInstructions": "Add extra veggies on request",
+      "id": "22"
+    },
+    {
+      "name": "Fettuccine Alfredo",
+      "category": "Pasta",
+      "type": "Veg",
+      "price": 13.5,
+      "image": "https://i1.wp.com/eatsdelightful.com/wp-content/uploads/2020/09/fettuccine-alfredo-complete.jpg?fit=1728%2C1996&ssl=1",
+      "description": "Creamy pasta with parmesan and butter.",
+      "ingredients": [
+        "Fettuccine",
+        "Butter",
+        "Cream",
+        "Parmesan"
+      ],
+      "available": true,
+      "rating": 4.7,
+      "reviews": 200,
+      "likes": 250,
+      "discount": "0%",
+      "calories": 800,
+      "specialInstructions": "Add grilled chicken for extra protein",
+      "id": "23"
+    },
+    {
+      "name": "Rainbow Roll",
+      "category": "Sushi",
+      "type": "Non-Veg",
+      "price": 15,
+      "image": "https://cdn.tasteatlas.com/images/dishes/8082ea9f08b94119b0110ccd40a5e2ea.jpg",
+      "description": "Sushi roll with assorted fish and avocado.",
+      "ingredients": [
+        "Tuna",
+        "Salmon",
+        "Avocado",
+        "Rice",
+        "Seaweed"
+      ],
+      "available": true,
+      "rating": 4.8,
+      "reviews": 230,
+      "likes": 280,
+      "discount": "0%",
+      "calories": 450,
+      "specialInstructions": "Add spicy mayo on request",
+      "id": "24"
+    },
+    {
+      "name": "Cheesecake",
+      "category": "Desserts",
+      "type": "Veg",
+      "price": 6,
+      "image": "https://itsnotcomplicatedrecipes.com/wp-content/uploads/2021/06/Baked-Cheesecake-Feature.jpg",
+      "description": "Creamy cheesecake with a graham cracker crust.",
+      "ingredients": [
+        "Cream Cheese",
+        "Graham Cracker",
+        "Sugar",
+        "Butter"
+      ],
+      "available": true,
+      "rating": 4.9,
+      "reviews": 290,
+      "likes": 360,
+      "discount": "0%",
+      "calories": 500,
+      "specialInstructions": "Add strawberry topping on request",
+      "id": "25"
+    },
+    {
+      "name": "Cobb Salad",
+      "category": "Salads",
+      "type": "Non-Veg",
+      "price": 10,
+      "image": "https://www.herwholesomekitchen.com/wp-content/uploads/2021/02/cobbsaladrecipe-1-1024x1024.jpg",
+      "description": "Salad with chicken, bacon, eggs, and avocado.",
+      "ingredients": [
+        "Lettuce",
+        "Chicken",
+        "Bacon",
+        "Eggs",
+        "Avocado"
+      ],
+      "available": true,
+      "rating": 4.5,
+      "reviews": 150,
+      "likes": 200,
+      "discount": "0%",
+      "calories": 400,
+      "specialInstructions": "No eggs by default",
+      "id": "26"
+    },
+    {
+      "name": "Fish and Chips",
+      "category": "Seafood",
+      "type": "Non-Veg",
+      "price": 14,
+      "image": "https://th.bing.com/th/id/R.f4de8ee85004dc2b06ebea4e96b97b4f?rik=uHAy1ITYo%2fSEZw&riu=http%3a%2f%2f3.bp.blogspot.com%2f_6fGQsHhOUdE%2fTEiFzVtjMFI%2fAAAAAAAAB00%2fy1x6PCshlyY%2fs1600%2fFishChips.jpg&ehk=rgeBeui75vyGt%2fOcUxVc4MuDJ4esnh4pYhojiXl%2f%2brk%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Crispy battered fish with fries.",
+      "ingredients": [
+        "Fish",
+        "Batter",
+        "Potatoes",
+        "Tartar Sauce"
+      ],
+      "available": true,
+      "rating": 4.6,
+      "reviews": 180,
+      "likes": 230,
+      "discount": "0%",
+      "calories": 900,
+      "specialInstructions": "Add extra tartar sauce on request",
+      "id": "27"
+    },
+    {
+      "name": "BBQ Chicken",
+      "category": "BBQ",
+      "type": "Non-Veg",
+      "price": 16,
+      "image": "https://www.thereciperebel.com/wp-content/uploads/2021/05/bbq-chicken-www.thereciperebel.com-1200-10-of-24.jpg",
+      "description": "Grilled chicken with smoky BBQ sauce.",
+      "ingredients": [
+        "Chicken",
+        "BBQ Sauce",
+        "Spices"
+      ],
+      "available": true,
+      "rating": 4.7,
+      "reviews": 200,
+      "likes": 250,
+      "discount": "0%",
+      "calories": 700,
+      "specialInstructions": "Add extra sauce on the side",
+      "id": "28"
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "category": "Indian",
+      "type": "Non-Veg",
+      "price": 14.5,
+      "image": "https://149433378.v2.pressablecdn.com/wp-content/uploads/2020/08/Chicken-Tikka-Masala-scaled.jpg",
+      "description": "Grilled chicken in a creamy tomato sauce.",
+      "ingredients": [
+        "Chicken",
+        "Tomato",
+        "Cream",
+        "Spices"
+      ],
+      "available": true,
+      "rating": 4.8,
+      "reviews": 240,
+      "likes": 300,
+      "discount": "0%",
+      "calories": 800,
+      "specialInstructions": "Adjust spice level on request",
+      "id": "29"
+    },
+    {
+      "name": "Beef and Broccoli",
+      "category": "Chinese",
+      "type": "Non-Veg",
+      "price": 13,
+      "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2021/01/Beef-and-Broccoli-9.jpg",
+      "description": "Stir-fried beef with broccoli in a savory sauce.",
+      "ingredients": [
+        "Beef",
+        "Broccoli",
+        "Soy Sauce",
+        "Garlic"
+      ],
+      "available": true,
+      "rating": 4.6,
+      "reviews": 170,
+      "likes": 220,
+      "discount": "0%",
+      "calories": 600,
+      "specialInstructions": "No garlic on request",
+      "id": "30"
+    },
+    {
+      "name": "Buffalo Chicken Pizza",
+      "category": "Pizza",
+      "type": "Non-Veg",
+      "price": 13,
+      "image": "https://easychickenrecipes.com/wp-content/uploads/2019/11/buffalo-chicken-pizza-6.jpg",
+      "description": "Spicy buffalo chicken with blue cheese on pizza.",
+      "ingredients": [
+        "Chicken",
+        "Buffalo Sauce",
+        "Blue Cheese",
+        "Mozzarella"
+      ],
+      "available": true,
+      "rating": 4.5,
+      "reviews": 160,
+      "likes": 210,
+      "discount": "0%",
+      "calories": 900,
+      "specialInstructions": "Add ranch dressing on the side",
+      "id": "31"
+    },
+    {
+      "name": "Penne Arrabbiata",
+      "category": "Pasta",
+      "type": "Veg",
+      "price": 12,
+      "image": "https://th.bing.com/th/id/OIP.AOVSNvaBB-avPd7Ob_XXfAHaLG?rs=1&pid=ImgDetMain",
+      "description": "Spicy tomato sauce with penne pasta.",
+      "ingredients": [
+        "Penne",
+        "Tomato Sauce",
+        "Chili",
+        "Garlic"
+      ],
+      "available": true,
+      "rating": 4.6,
+      "reviews": 180,
+      "likes": 230,
+      "discount": "0%",
+      "calories": 700,
+      "specialInstructions": "Adjust spice level on request",
+      "id": "32"
+    },
+    {
+      "name": "Spicy Tuna Roll",
+      "category": "Sushi",
+      "type": "Non-Veg",
+      "price": 11,
+      "image": "https://thewoodenskillet.com/wp-content/uploads/2023/06/spicy-tuna-roll-recipe-2.jpg",
+      "description": "Sushi roll with spicy tuna and cucumber.",
+      "ingredients": [
+        "Tuna",
+        "Cucumber",
+        "Rice",
+        "Seaweed",
+        "Spicy Mayo"
+      ],
+      "available": true,
+      "rating": 4.7,
+      "reviews": 190,
+      "likes": 240,
+      "discount": "0%",
+      "calories": 350,
+      "specialInstructions": "Add extra spicy mayo on request",
+      "id": "33"
+    },
+    {
+      "name": "Apple Pie",
+      "category": "Desserts",
+      "type": "Veg",
+      "price": 6.5,
+      "image": "https://th.bing.com/th/id/OIP.9mJoYHFLLpNqrvpHJfat1QHaLH?rs=1&pid=ImgDetMain",
+      "description": "Classic apple pie with a flaky crust.",
+      "ingredients": [
+        "Apples",
+        "Sugar",
+        "Cinnamon",
+        "Flour",
+        "Butter"
+      ],
+      "available": true,
+      "rating": 4.8,
+      "reviews": 220,
+      "likes": 270,
+      "discount": "0%",
+      "calories": 400,
+      "specialInstructions": "Serve with vanilla ice cream",
+      "id": "34"
+    },
+    {
+      "name": "Caprese Salad",
+      "category": "Salads",
+      "type": "Veg",
+      "price": 9,
+      "image": "https://downshiftology.com/wp-content/uploads/2019/07/Caprese-Salad-4.jpg",
+      "description": "Fresh salad with tomatoes, mozzarella, and basil.",
+      "ingredients": [
+        "Tomatoes",
+        "Mozzarella",
+        "Basil",
+        "Olive Oil"
+      ],
+      "available": true,
+      "rating": 4.7,
+      "reviews": 180,
+      "likes": 230,
+      "discount": "0%",
+      "calories": 300,
+      "specialInstructions": "Add balsamic glaze on request",
+      "id": "35"
+    },
+    {
+      "name": "Lobster Bisque",
+      "category": "Seafood",
+      "type": "Non-Veg",
+      "price": 20,
+      "image": "https://cafedelites.com/wp-content/uploads/2020/02/Lobster-Bisque-IMAGE-1jpg-1024x1536.jpg",
+      "description": "Creamy lobster soup with a rich flavor.",
+      "ingredients": [
+        "Lobster",
+        "Cream",
+        "Butter",
+        "Herbs"
+      ],
+      "available": true,
+      "rating": 4.9,
+      "reviews": 260,
+      "likes": 320,
+      "discount": "0%",
+      "calories": 500,
+      "specialInstructions": "Add extra herbs on request",
+      "id": "36"
+    },
+    {
+      "name": "Samosa",
+      "category": "Indian",
+      "type": "Veg",
+      "price": 5,
+      "image": "https://th.bing.com/th/id/R.5e9d914158f20abde43751bc56170aff?rik=IVjPf86fA0ExdQ&riu=http%3a%2f%2fwww.zedamagazine.com%2fwp-content%2fuploads%2f2018%2f06%2fIndian-Food-Samosa-Dish-HD-Wallpapers.jpg&ehk=CIZsxVe5CLA%2fpZXkiCdJuoTdrhucm2fgYqo%2fkXVfHls%3d&risl=&pid=ImgRaw&r=0",
+      "description": "Crispy pastry filled with spiced potatoes and peas.",
+      "ingredients": [
+        "Potatoes",
+        "Peas",
+        "Spices",
+        "Pastry"
+      ],
+      "available": true,
+      "rating": 4.6,
+      "reviews": 160,
+      "likes": 210,
+      "discount": "0%",
+      "calories": 300,
+      "specialInstructions": "Serve with tamarind chutney",
+      "id": "38"
+    },
+    {
+      "name": "General Tso's Chicken",
+      "category": "Chinese",
+      "type": "Non-Veg",
+      "price": 13.5,
+      "image": "https://www.paleorunningmomma.com/wp-content/uploads/2018/03/general-tso-chicken-2.jpg",
+      "description": "Crispy chicken in a sweet and spicy sauce.",
+      "ingredients": [
+        "Chicken",
+        "Soy Sauce",
+        "Chili",
+        "Sugar"
+      ],
+      "available": true,
+      "rating": 4.7,
+      "reviews": 200,
+      "likes": 250,
+      "discount": "0%",
+      "calories": 700,
+      "specialInstructions": "Adjust spice level on request",
+      "id": "39"
+    },
+    {
+      "name": "Quattro Formaggi Pizza",
+      "category": "Pizza",
+      "type": "Veg",
+      "price": 12.5,
+      "image": "https://www.lekkerensimpel.com/wp-content/uploads/2020/11/IMG_5753-1.jpg",
+      "description": "Pizza with four types of cheese.",
+      "ingredients": [
+        "Mozzarella",
+        "Gorgonzola",
+        "Parmesan",
+        "Fontina"
+      ],
+      "available": true,
+      "rating": 4.6,
+      "reviews": 170,
+      "likes": 220,
+      "discount": "0%",
+      "calories": 850,
+      "specialInstructions": "Add truffle oil for extra flavor",
+      "id": "40"
+    },
+    {
+      "name": "Ravioli",
+      "category": "Pasta",
+      "type": "Veg",
+      "price": 14,
+      "image": "https://josieandnina.com/wp-content/uploads/2023/02/Meat-Ravioli-Overhead-Zoom-3920-1-720x1082.jpg",
+      "description": "Stuffed pasta with ricotta and spinach.",
+      "ingredients": [
+        "Pasta",
+        "Ricotta",
+        "Spinach",
+        "Tomato Sauce"
+      ],
+      "available": true,
+      "rating": 4.7,
+      "reviews": 190,
+      "likes": 240,
+      "discount": "0%",
+      "calories": 750,
+      "specialInstructions": "Add extra parmesan on request",
+      "id": "41"
+    },
+    {
+      "name": "Tempura Roll",
+      "category": "Sushi",
+      "type": "Non-Veg",
+      "price": 12,
+      "image": "https://www.munchkintime.com/wp-content/uploads/2021/03/Munchkin-Time-Shrimp-Tempura-Sushi-Recipe-22.jpg",
+      "description": "Sushi roll with tempura shrimp and avocado.",
+      "ingredients": [
+        "Shrimp",
+        "Avocado",
+        "Rice",
+        "Seaweed",
+        "Tempura Batter"
+      ],
+      "available": true,
+      "rating": 4.7,
+      "reviews": 180,
+      "likes": 230,
+      "discount": "0%",
+      "calories": 400,
+      "specialInstructions": "Add spicy mayo on request",
+      "id": "42"
+    },
+    {
+      "name": "Red Velvet Cake",
+      "category": "Desserts",
+      "type": "Veg",
+      "price": 7,
+      "image": "https://www.recipetineats.com/wp-content/uploads/2016/06/Red-Velvet-Cake-with-Cream-Cheese-Frosting_landscape.jpg",
+      "description": "Moist red velvet cake with cream cheese frosting.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Cocoa",
+        "Butter",
+        "Cream Cheese"
+      ],
+      "available": true,
+      "rating": 4.9,
+      "reviews": 270,
+      "likes": 330,
+      "discount": "0%",
+      "calories": 500,
+      "specialInstructions": "Add extra frosting on request",
+      "id": "43"
+    },
+    {
+      "name": "Waldorf Salad",
+      "category": "Salads",
+      "type": "Veg",
+      "price": 8,
+      "image": "https://www.dinneratthezoo.com/wp-content/uploads/2019/02/waldorf-salad-5.jpg",
+      "description": "Salad with apples, walnuts, and celery.",
+      "ingredients": [
+        "Apples",
+        "Walnuts",
+        "Celery",
+        "Mayonnaise"
+      ],
+      "available": true,
+      "rating": 4.5,
+      "reviews": 140,
+      "likes": 190,
+      "discount": "0%",
+      "calories": 350,
+      "specialInstructions": "No walnuts on request",
+      "id": "44"
+    },
+    {
+      "name": "Crab Cakes",
+      "category": "Seafood",
+      "type": "Non-Veg",
+      "price": 18,
+      "image": "https://th.bing.com/th/id/OIP.wVwWwcuHznJP4IF0Z29E7QHaLJ?rs=1&pid=ImgDetMain",
+      "description": "Crispy crab cakes with a tangy dipping sauce.",
+      "ingredients": [
+        "Crab",
+        "Breadcrumbs",
+        "Egg",
+        "Mayonnaise",
+        "Spices"
+      ],
+      "available": true,
+      "rating": 4.8,
+      "reviews": 220,
+      "likes": 270,
+      "discount": "0%",
+      "calories": 600,
+      "specialInstructions": "Add extra sauce on the side",
+      "id": "45"
+    },
+    {
+      "name": "BBQ Pulled Chicken",
+      "category": "BBQ",
+      "type": "Non-Veg",
+      "price": 14,
+      "image": "https://www.tasteofhome.com/wp-content/uploads/2017/10/Pulled-Chicken-Sandwiches_EXPS_SCMBZ17_132312_B01_12_5b.jpg",
+      "description": "Slow-cooked pulled chicken with BBQ sauce.",
+      "ingredients": [
+        "Chicken",
+        "BBQ Sauce",
+        "Bun",
+        "Coleslaw"
+      ],
+      "available": true,
+      "rating": 4.7,
+      "reviews": 200,
+      "likes": 250,
+      "discount": "0%",
+      "calories": "700",
+      "specialInstructions": "Extra coleslaw on the side",
+      "id": "46"
+    },
+    {
+      "name": "Chana Masala",
+      "category": "Indian",
+      "type": "Veg",
+      "price": 10,
+      "image": "https://realandvibrant.com/wp-content/uploads/2019/05/Indian-Chana-Masala-4.jpg",
+      "description": "Spicy chickpea curry with tomatoes and onions.",
+      "ingredients": [
+        "Chickpeas",
+        "Tomatoes",
+        "Onions",
+        "Spices"
+      ],
+      "available": true,
+      "rating": 4.6,
+      "reviews": 170,
+      "likes": 220,
+      "discount": "0%",
+      "calories": "400",
+      "specialInstructions": "Adjust spice level on request",
+      "id": "47"
+    },
+    {
+      "name": "Szechuan Beef",
+      "category": "Chinese",
+      "type": "Non-Veg",
+      "price": 15,
+      "image": "https://www.dinneratthezoo.com/wp-content/uploads/2020/06/szechuan-beef-4.jpg",
+      "description": "Spicy stir-fried beef with Szechuan sauce.",
+      "ingredients": [
+        "Beef",
+        "Szechuan Sauce",
+        "Vegetables",
+        "Chili"
+      ],
+      "available": true,
+      "rating": 4.7,
+      "reviews": 190,
+      "likes": 240,
+      "discount": "0%",
+      "calories": 700,
+      "specialInstructions": "No chili on request",
+      "id": "48"
+    },
+    {
+      "name": "White Pizza",
+      "category": "Pizza",
+      "type": "Veg",
+      "price": 12,
+      "image": "https://www.modernhoney.com/wp-content/uploads/2019/05/The-Best-3-Cheese-White-Pizza-3.jpg",
+      "description": "Pizza with ricotta, mozzarella, and garlic.",
+      "ingredients": [
+        "Ricotta",
+        "Mozzarella",
+        "Garlic",
+        "Olive Oil"
+      ],
+      "available": true,
+      "rating": 4.6,
+      "reviews": 170,
+      "likes": 220,
+      "discount": "0%",
+      "calories": 800,
+      "specialInstructions": "Add spinach on request",
+      "id": "49"
+    },
+    {
+      "name": "Linguine with Clams",
+      "category": "Pasta",
+      "type": "Non-Veg",
+      "price": 16,
+      "image": "https://th.bing.com/th/id/OIP.1O4bWAVuRNEHmj2jxEP3yQHaHa?rs=1&pid=ImgDetMain",
+      "description": "Linguine pasta with fresh clams in a white wine sauce.",
+      "ingredients": [
+        "Linguine",
+        "Clams",
+        "Garlic",
+        "White Wine",
+        "Parsley"
+      ],
+      "available": true,
+      "rating": 4.8,
+      "reviews": 220,
+      "likes": 270,
+      "discount": "0%",
+      "calories": 700,
+      "specialInstructions": "Add extra garlic on request",
+      "id": "50"
+    }
+  ],
+  "customer": [
+    {
+      "id": "b981",
+      "username": "Vishal ",
+      "email": "vishalkapoor2684@gmail.com",
+      "password": "1",
+      "dob": "",
+      "phone": "07307050527",
+      "image":""
+     },
+    {
+      "id": "aeb3",
+      "username": "raju ",
+      "email": "raju123@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "termsAccepted": true
+    },
+    {
+      "id": "43b2",
+      "username": "Preeti",
+      "email": "shahpreeti45@gmail.com",
+      "password": "king",
+      "confirmPassword": "king",
+      "termsAccepted": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "3cce",
+      "customerId": "b981",
+      "customerName": "swati",
+      "phone": "Not Provided",
+      "orderDate": "2025-03-15 11:44:21",
+      "address": "67 gali no. 4 niei abadi kishan kot islamabad",
+      "items": [
+        {
+          "id": "3",
+          "name": "Classic Cheeseburger",
+          "price": 8.5,
+          "quantity": 1,
+          "totalPrice": 8.5
+        }
+      ],
+      "paymentMethod": "COD",
+      "paymentStatus": "Pending",
+      "totalAmount": 8.5,
+      "orderStatus": "Completed"
+    },
+    {
+      "id": "5ddb",
+      "customerId": "b981",
+      "customerName": "swati",
+      "phone": "Not Provided",
+      "orderDate": "2025-03-17 11:51:31",
+      "address": "house 1",
+      "items": [
+        {
+          "id": "4",
+          "name": "Veggie Burger",
+          "price": 7.5,
+          "quantity": 1,
+          "totalPrice": 7.5
+        }
+      ],
+      "paymentMethod": "COD",
+      "paymentStatus": "Pending",
+      "totalAmount": 7.5,
+      "orderStatus": "Pending"
+    },
+    {
+      "id": "8bcb",
+      "customerId": "b981",
+      "customerName": "swati",
+      "phone": "07307050527",
+      "orderDate": "2025-03-18 05:01:49",
+      "address": "67 gali no. 4 niei abadi kishan kot islamabad",
+      "items": [
+        {
+          "id": "23",
+          "name": "Fettuccine Alfredo",
+          "price": 13.5,
+          "quantity": 1,
+          "totalPrice": 13.5
+        },
+        {
+          "id": "32",
+          "name": "Penne Arrabbiata",
+          "price": 12,
+          "quantity": 1,
+          "totalPrice": 12
+        }
+      ],
+      "paymentMethod": "COD",
+      "paymentStatus": "Pending",
+      "totalAmount": 25.5,
+      "orderStatus": "Completed"
+    },
+    {
+      "id": "59cb",
+      "customerId": "b981",
+      "customerName": "swati",
+      "phone": "07307050527",
+      "orderDate": "2025-03-18 05:04:56",
+      "address": "house 1",
+      "items": [
+        {
+          "id": "38",
+          "name": "Samosa",
+          "price": 5,
+          "quantity": 1,
+          "totalPrice": 5
+        }
+      ],
+      "paymentMethod": "COD",
+      "paymentStatus": "Pending",
+      "totalAmount": 5,
+      "orderStatus": "Canceled"
+    },
+    {
+      "id": "b040",
+      "customerId": "43b2",
+      "customerName": "Preeti",
+      "phone": "Not Provided",
+      "orderDate": "2025-03-18 05:09:14",
+      "address": "67 gali no. 4 niei abadi kishan kot islamabad",
+      "items": [
+        {
+          "id": "32",
+          "name": "Penne Arrabbiata",
+          "price": 12,
+          "quantity": 1,
+          "totalPrice": 12
+        },
+        {
+          "id": "38",
+          "name": "Samosa",
+          "price": 5,
+          "quantity": 1,
+          "totalPrice": 5
+        }
+      ],
+      "paymentMethod": "COD",
+      "paymentStatus": "Pending",
+      "totalAmount": 17,
+      "orderStatus": "Canceled"
+    },
+    {
+      "id": "d02b",
+      "customerId": "b981",
+      "customerName": "swati",
+      "phone": "07307050527",
+      "orderDate": "2025-03-18 05:24:32",
+      "address": "housing board colony ranjit avnue c block",
+      "items": [
+        {
+          "id": "25",
+          "name": "Cheesecake",
+          "price": 6,
+          "quantity": 1,
+          "totalPrice": 6
+        },
+        {
+          "id": "43",
+          "name": "Red Velvet Cake",
+          "price": 7,
+          "quantity": 1,
+          "totalPrice": 7
+        }
+      ],
+      "paymentMethod": "COD",
+      "paymentStatus": "Pending",
+      "totalAmount": 13,
+      "orderStatus": "Pending"
+    },
+    {
+      "id": "d211",
+      "customerId": "b981",
+      "customerName": "swati",
+      "phone": "07307050527",
+      "orderDate": "2025-03-27 07:47:21",
+      "address": "house 2",
+      "items": [
+        {
+          "id": "45",
+          "name": "Crab Cakes",
+          "price": 18,
+          "quantity": 2,
+          "totalPrice": 36
+        }
+      ],
+      "paymentMethod": "COD",
+      "paymentStatus": "Pending",
+      "totalAmount": 36,
+      "orderStatus": "Preparing"
+    },
+    {
+      "id": "c552",
+      "customerId": "b981",
+      "customerName": "Vishal ",
+      "phone": "07307050527",
+      "orderDate": "2025-03-28 06:14:37",
+      "address": "himanshu da ghar",
+      "items": [
+        {
+          "id": "32",
+          "name": "Penne Arrabbiata",
+          "price": 12,
+          "quantity": 2,
+          "totalPrice": 24
+        },
+        {
+          "id": "41",
+          "name": "Ravioli",
+          "price": 14,
+          "quantity": 1,
+          "totalPrice": 14
+        },
+        {
+          "id": "50",
+          "name": "Linguine with Clams",
+          "price": 16,
+          "quantity": 1,
+          "totalPrice": 16
+        }
+      ],
+      "paymentMethod": "COD",
+      "paymentStatus": "Pending",
+      "totalAmount": 54,
+      "orderStatus": "Canceled"
+    }
+  ],
+  "address": [
+    {
+      "id": "7e24",
+      "customerId": "guest",
+      "address": "hkjjkhk"
+    },
+    {
+      "id": "6139",
+      "customerId": "b981",
+      "address": "67 gali no. 4 niei abadi kishan kot islamabad"
+    },
+    {
+      "id": "4222",
+      "customerId": "b981",
+      "address": "house 2"
+    },
+    {
+      "id": "57b0",
+      "customerId": "guest",
+      "address": "67 gali no. 4 niei abadi kishan kot islamabad"
+    },
+    {
+      "id": "9e32",
+      "customerId": "43b2",
+      "address": "67 gali no. 4 niei abadi kishan kot islamabad"
+    },
+    {
+      "id": "3059",
+      "customerId": "b981",
+      "address": "himanshu da ghar"
+    }
+  ],
+  "reserveTable": [
+    {
+      "id": "e877",
+      "name": "Ayeesha",
+      "contact": "08536578687",
+      "email": "ayessha@gamil.com",
+      "bookingDate": "2025-03-09",
+      "time": "14:15",
+      "guests": "1",
+      "selectedTable": 2
+    },
+    {
+      "id": "ce9e",
+      "name": "swati",
+      "contact": "08536578687",
+      "email": "swati@gmail.com",
+      "bookingDate": "2025-03-18",
+      "time": "15:38",
+      "guests": "2",
+      "selectedTable": 2
+    },
+    {
+      "id": "19c5",
+      "name": "swati",
+      "contact": "08536578687",
+      "email": "swati@gmail.com",
+      "bookingDate": "2025-03-18",
+      "time": "15:38",
+      "guests": "2",
+      "selectedTable": 2
+    },
+    {
+      "id": "f1bc",
+      "name": "vishal",
+      "contact": "07307050527",
+      "email": "vishalkapoor2684@gmail.com",
+      "bookingDate": "2025-03-18",
+      "time": "13:43",
+      "guests": "4",
+      "selectedTable": 2
+    },
+    {
+      "id": "fb21",
+      "name": "vishal",
+      "contact": "07307050527",
+      "email": "vishalkapoor2684@gmail.com",
+      "bookingDate": "2025-03-18",
+      "time": "13:43",
+      "guests": "4",
+      "selectedTable": 2
+    }
+  ],
+  "reservePartyhall": [
+    {
+      "id": "c36b",
+      "bookingName": "poonam",
+      "bookingDate": "09-03-2025",
+      "eventType": "Corporate Event",
+      "startTime": "17:00",
+      "endTime": "23:00",
+      "totalHours": "6",
+      "guests": "15",
+      "specialRequests": ",mnj y8ynnohj bbg87nb8 g0",
+      "emergencyContactName": "vishal kapoor",
+      "emergencyContactPhone": "07307050527"
+    },
+    {
+      "id": "f1ce",
+      "bookingName": "poonam",
+      "bookingDate": "09-03-2025",
+      "eventType": "Birthday",
+      "startTime": "21:05",
+      "endTime": "03:05",
+      "totalHours": "6",
+      "guests": "15",
+      "specialRequests": "",
+      "emergencyContactName": "vishal kapoor",
+      "emergencyContactPhone": "07307050527"
+    },
+    {
+      "id": "79b3",
+      "bookingName": "poonam",
+      "bookingDate": "09-03-2025",
+      "eventType": "Birthday",
+      "startTime": "21:05",
+      "endTime": "03:05",
+      "totalHours": "6",
+      "guests": "15",
+      "specialRequests": "",
+      "emergencyContactName": "vishal kapoor",
+      "emergencyContactPhone": "07307050527"
+    },
+    {
+      "id": "1865",
+      "bookingName": "poonam",
+      "bookingDate": "09-03-2025",
+      "eventType": "Birthday",
+      "startTime": "21:05",
+      "endTime": "03:05",
+      "totalHours": "6",
+      "guests": "15",
+      "specialRequests": "",
+      "emergencyContactName": "vishal kapoor",
+      "emergencyContactPhone": "07307050527"
+    },
+    {
+      "id": "ef94",
+      "bookingName": "swati",
+      "bookingDate": "18-03-2025",
+      "eventType": "Birthday",
+      "startTime": "15:40",
+      "endTime": "19:40",
+      "totalHours": "4",
+      "guests": "10",
+      "specialRequests": "bsdbfewhri",
+      "emergencyContactName": "swati",
+      "emergencyContactPhone": "08536578687"
+    }
+  ]
+}

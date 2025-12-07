@@ -1,0 +1,130 @@
+.customer-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 10px; */
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+
+/* Upper Part: Profile Image + Basic Info */
+.profile-upper-part {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.profile-left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.profile-right-side {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  gap: 6px;
+}
+
+.profile-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ddd;
+}
+
+#profile-upload {
+  display: none;
+}
+
+.profile-left-side label {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.profile-form input {
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #FBC252;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 75%;
+  background: #fff;
+}
+
+.profile-lower-part {
+  padding: 10px;
+}
+
+.profile-lower-part input {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.profile-submit-btn {
+  width: fit-content;
+  padding: 12px 20px;
+  background: #FFB100;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+
+.profile-submit-btn:hover {
+  border: 1px solid #FFB100;
+  background-color: #fff;
+  color: #FFB100;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1068px) {
+  .profile-form input {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .customer-profile-container {
+width: 90%;
+  }
+  .profile-form input {
+    width: 95%;
+    padding: 7px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .profile-form input {
+    padding: 5px;
+    font-size: 14px;
+    width: 80%;
+  }
+
+  .profile-submit-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+
+}

@@ -1,0 +1,225 @@
+/* Base styles */
+.pending-orders-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-height: 90vh;
+    overflow-y: scroll;
+}
+
+.pending-orders-container::-webkit-scrollbar {
+    display: none;
+}
+
+.order-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #F0ECCF;
+    min-width: 250px;
+}
+
+.pending-order {
+    background-color: #f6e089c7;
+}
+
+.order-id-no {
+    font-size: 22px;
+    color: #FFB100;
+    font-weight: 600;
+}
+
+.order-card-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.order-card-row p {
+    color: rgba(0, 0, 0, 0.829);
+    margin-right: 7px;
+}
+
+.order-card-row p strong {
+    color: #FFB100;
+}
+
+.order-customer-img {
+    width: 50px;
+    height: 50px;
+}
+
+.order-customer-img img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.items {
+    margin-top: 12px;
+}
+
+.items table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.items table thead tr th,
+.items table tbody tr td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.items table thead tr th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.items table tbody tr td {
+    background-color: #fbc352b8;
+}
+
+.items table tbody tr:hover {
+    background-color: #d64d4d;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.actions span {
+    border: none;
+    padding: 3px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FBC252;
+    border: 1px solid #FBC252;
+    transform: scale(1.8);
+    margin: 5px 20px;
+    transition: 0.3s ease;
+}
+
+.preparing-btn:hover {
+    background-color: #FBC252;
+    color: white;
+}
+
+.rejection-btn:hover {
+    background-color: #a01104;
+    border: 1px solid #a01104;
+    color: white;
+}
+
+.complete-btn:hover {
+    background-color: #4caf50;
+    border: 1px solid #4caf50;
+    color: white;
+}
+
+.completed-order {
+    border-left: 5px solid #4caf50;
+    background-color: #e8f5e9;
+}
+
+.canceled-order {
+    border-left: 5px solid #f44336;
+    background-color: #f53e595e;
+}
+
+.preparing-order {
+    border-left: 5px solid #ffc107;
+    background-color: #fff8e1;
+}
+
+/* Responsive styles */
+@media (max-width: 1068px) {
+    .pending-orders-container {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 15px;
+    }
+
+    .order-id-no {
+        font-size: 20px;
+    }
+
+    .order-card-row p {
+        font-size: 14px;
+    }
+
+    .items table thead tr th,
+    .items table tbody tr td {
+        padding: 6px;
+    }
+
+    .actions span {
+        transform: scale(1.5);
+        margin: 5px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pending-orders-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+    }
+
+    .order-id-no {
+        font-size: 18px;
+    }
+
+    .order-card-row p {
+        font-size: 12px;
+    }
+
+    .order-customer-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .items table thead tr th,
+    .items table tbody tr td {
+        padding: 4px;
+    }
+
+    .actions span {
+        transform: scale(1.2);
+        margin: 5px 10px;
+    }
+}
+
+@media (max-width: 468px) {
+    .pending-orders-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 8px;
+    }
+
+    .order-id-no {
+        font-size: 16px;
+    }
+
+    .order-card-row p {
+        font-size: 10px;
+    }
+
+    .order-customer-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .items table thead tr th,
+    .items table tbody tr td {
+        padding: 2px;
+    }
+
+    .actions span {
+        transform: scale(1);
+        margin: 5px 8px;
+    }
+}

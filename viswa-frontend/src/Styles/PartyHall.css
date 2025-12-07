@@ -1,0 +1,131 @@
+.party-hall-container {
+  width: 95%;
+  /* margin: 20px auto; */
+  padding: 20px;
+  border-radius: 10px;
+  background: #F0ECCF;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.party-hall-container h2 {
+  color: #FFB100;
+}
+
+.party-hall-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.party-hall-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #FFB100;
+}
+.party-hall-form textarea,
+.party-hall-form input{
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #FBC252;
+  border-radius: 5px;
+  background: whitesmoke;
+  font-size: 16px;
+  width: 95%;
+}
+
+.party-hall-form select {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #FBC252;
+  border-radius: 5px;
+  background: whitesmoke;
+  font-size: 16px;
+  width: 100%;
+}
+
+.party-hall-form textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.time-inputs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.time-inputs label {
+  flex: 1;
+}
+
+.party-hall-form button {
+  background: #FFB100;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.party-hall-form button:hover {
+  background: #e09b00;
+}
+.emergency-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .party-hall-container {
+    /* max-width: 90%; Adjust width on tablets */
+    padding: 15px;
+  }
+
+  .time-inputs {
+    flex-direction: column; /* Stack inputs on smaller screens */
+    gap: 12px;
+  }
+
+  .party-hall-form input,
+  .party-hall-form textarea,
+  .party-hall-form select {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    padding: 8px;
+  }
+
+  .party-hall-form button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .party-hall-container {
+    max-width: 95%;
+    padding: 10px;
+  }
+
+  .party-hall-form {
+    gap: 8px;
+  }
+
+  .party-hall-form input,
+  .party-hall-form textarea,
+  .party-hall-form select {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .party-hall-form button {
+    font-size: 17px;
+    padding: 8px;
+  }
+}

@@ -1,0 +1,130 @@
+.selected-food-container {
+    text-align: center;
+    padding:20px;
+    background-color: #F0ECCF;
+    min-height: 90vh;
+    margin: auto;
+}
+
+.selected-food-title {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.selected-food-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+.selected-food-card {
+    background: #ffffff95;
+    border-radius: 10px;  
+      max-width: 230px;
+      
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+}
+
+.selected-food-card:hover {
+    transform: scale(1.05);
+}
+
+.selected-food-card-upper-details {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selected-food-card-type {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0px;  /* Adjust distance from the top */
+    right: 8px; /* Adjust distance from the right */
+    font-size: 12px;
+    font-weight: bold;
+    border-radius:0 0 5px 5px;
+    padding: 5px;
+    z-index: 10;
+    color: white;
+}
+
+.selected-food-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.selected-food-details {
+    text-align: left;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;}
+
+.selected-food-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.selected-food-ingredients {
+    font-size: 14px;
+    color: #777;
+}
+
+.selected-food-price {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFB100;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 1068px) {
+    .selected-food-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .selected-food-title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .selected-food-grid {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+
+    .selected-food-title {
+        font-size: 22px;
+    }
+
+    .selected-food-image {
+        height: 130px;
+    }
+
+   
+}
+
+@media screen and (max-width: 468px) {
+    .selected-food-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    .selected-food-title {
+        font-size: 18px;
+    }
+
+    .selected-food-image {
+        height: 120px;
+    }
+ 
+}

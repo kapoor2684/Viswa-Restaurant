@@ -1,0 +1,121 @@
+.food-categories-container {
+    max-width: 100%;
+    padding: 20px 50px;
+}
+
+/* Category title */
+.food-categories-container span {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+/* Scrollable Food Category */
+.all-food-category {
+    display: flex;
+    gap: 20px;
+    padding: 13px 5px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth; 
+}
+
+.all-food-category::-webkit-scrollbar {
+    display: none;
+}
+
+.food-category-card {
+    flex: 0 0 auto;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff95;
+    padding: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.food-category-card:hover {
+    transform: scale(1.05);
+}
+
+/* Category Image */
+.food-category-img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+/* Category Name */
+.food-category-card p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* 🔹 Responsive Design */
+
+/* 🔸 1068px Screens */
+@media (max-width: 1068px) {
+    .food-categories-container {
+        padding: 15px 30px;
+    }
+    .all-food-category {
+        gap: 15px;
+    }
+    .food-category-card {
+        width: 120px;
+    }
+    .food-category-img {
+        width: 120px;
+        height: 120px;
+    }
+    .food-category-card p {
+        font-size: 16px;
+    }
+}
+
+/* 🔸 768px Screens */
+@media (max-width: 768px) {
+    .food-categories-container {
+        padding: 10px 20px;
+        text-align: center;
+
+    }
+    .all-food-category {
+        gap: 10px;
+    }
+    .food-category-card {
+        width: 110px;
+    }
+    .food-category-img {
+        width: 110px;
+        height: 110px;
+    }
+    .food-category-card p {
+        font-size: 15px;
+    }
+}
+
+/* 🔸 468px Screens (Mobile) */
+@media (max-width: 468px) {
+    .food-categories-container {
+        padding: 8px 15px;
+    }
+    .all-food-category {
+        gap: 8px;
+    }
+    .food-category-card {
+        width: 100px;
+    }
+    .food-category-img {
+        width: 100px;
+        height: 100px;
+    }
+    .food-category-card p {
+        font-size: 14px;
+    }
+}

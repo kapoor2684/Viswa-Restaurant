@@ -1,0 +1,85 @@
+/* Background styling */
+.index-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFB100;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .floating-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* Content styling */
+  .index-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.553);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  .index-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .index-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  /* Options */
+  .options-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .option-card {
+    background: #F0ECCF;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    backdrop-filter: blur(5px);
+  }
+  
+  .option-card:hover {
+    background: #FBC252;
+  }
+  
+  .option-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .option-card p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+  }
+  

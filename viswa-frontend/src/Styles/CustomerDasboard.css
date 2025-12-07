@@ -1,0 +1,91 @@
+/* Floating menu container fixed at bottom right */
+.floating-menu-container {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
+/* Menu button styling */
+.menu-button {
+  background-color: #FFB100;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 26px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+
+.menu-button:hover {
+  background-color: #dc9a01;
+}
+
+.menu-button.open {
+  background-color: #dc3545;
+}
+
+/* Vertical menu scroll container with max height and scroll */
+.vertical-menu-scroll-container {
+  position: fixed;
+  bottom: 10px; /* Above menu button */
+  right: 5px;
+  width: 220px;
+  max-height: 280px;
+  background: rgba(26, 26, 26, 0.95);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Vertical menu list container */
+.vertical-menu-list {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+}
+
+/* Vertical menu item buttons */
+.vertical-menu-item {
+  background-color: rgb(33, 33, 33);
+  border: none;
+  border-bottom: 1px solid #a0a0a0;
+  padding: 12px 16px;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  user-select: none;
+}
+
+.vertical-menu-item:last-child {
+  border-bottom: none;
+}
+
+.vertical-menu-item:hover {
+  background-color: #FFB100;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+  .vertical-menu-scroll-container {
+    width: 140px;
+    max-height: 220px;
+  }
+  .vertical-menu-item {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+  .menu-button {
+    width: 55px;
+    height: 55px;
+    font-size: 24px;
+  }
+}

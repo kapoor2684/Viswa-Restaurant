@@ -1,0 +1,261 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 20px;
+  background-color: #FFB100;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.header-logo-search {
+  display: flex;
+  padding: 0 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  width: 65px;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Search Bar */
+.header-search-bar {
+  width: 600px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.header-search-bar input {
+  width: 90%;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+
+.search-results {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  background: #F0ECCF;
+  color: black;
+  border-radius: 0 0 10px 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 20;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 5px 0;
+  scrollbar-width: thin;
+  scrollbar-color: #FFB100 #F0ECCF;
+}
+
+/* Custom Scrollbar for Webkit Browsers */
+.search-results::-webkit-scrollbar {
+  width: 5px;
+}
+
+.search-results::-webkit-scrollbar-track {
+  background: #F0ECCF;
+  border-radius: 10px;
+}
+
+.search-results::-webkit-scrollbar-thumb {
+  background: #FFB100;
+  border-radius: 10px;
+}
+
+.search-results::-webkit-scrollbar-thumb:hover {
+  background: #FFB100;
+}
+
+
+.search-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  transition: background 0.2s;
+}
+
+.items-all-details {
+  display: flex;
+  align-items: center;
+}
+
+.search-item:hover {
+  background: #FBC252;
+}
+
+.search-item-image {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.search-item-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-item-detail span:nth-child(2) {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.search-counter {
+  display: flex;
+  align-items: center;
+  background-color: #F0ECCF;
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-weight: 600;
+  color: black;
+}
+
+.search-counter-btn {
+  background: #F0ECCF;
+  border: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.search-counter-btn:hover {
+  color: #FFB100;
+}
+
+.search-counter-value {
+  margin: 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.search-item-add {
+  background-color: #FFB100;
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+.search-item-add:hover {
+  background-color: #F0ECCF;
+  border: 1px solid #FFB100;
+  color: #FFB100;
+}
+
+
+.no-results {
+  padding: 10px;
+  color: red;
+  text-align: center;
+}
+
+.food-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+  transform: scale(1.5);
+  color: white;
+}
+
+/* Login/Signup Button */
+.header-btns-cart {
+  display: flex;
+  gap: 20px;
+}
+
+.food-cart {
+  transform: scale(2.0);
+  padding-right: 3px;
+}
+
+.login-btn {
+  background-color: #fff;
+  color: #FFB100;
+  text-decoration: none;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+/* .login-btn:hover {
+
+} */
+.loguser-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #F0ECCF;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1068px) {
+  .header-search-bar {
+    width: 400px;
+  }
+
+}
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+
+  .header-search-bar {
+    display: none;
+  }
+
+  .header-btns-cart {
+    gap: 10px;
+  }
+
+  .login-btn {
+    padding: 8px 12px;
+    font-size: 0.92rem;
+  }
+
+  .food-cart {
+    transform: scale(1.8);
+  }
+}
+
+/* For screens up to 468px (Mobile) */
+@media (max-width: 468px) {
+  .logo {
+    width: 50px;
+  }
+
+  .header-btns-cart {
+    gap: 5px;
+  }
+
+  .login-btn {
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  .food-cart {
+    transform: scale(1.5);
+  }
+}

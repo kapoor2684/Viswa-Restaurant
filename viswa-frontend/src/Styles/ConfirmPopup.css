@@ -1,0 +1,49 @@
+.confirm-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .confirm-popup {
+    background: rgb(240, 236, 207);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .confirm-popup p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .confirm-popup-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .confirm-btn, .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .confirm-btn {
+    color: white;
+    background: #FFB100;
+  }
+  
+  .cancel-btn {
+    background: #ff4d4d;
+    color: whitesmoke;
+  }

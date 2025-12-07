@@ -1,0 +1,67 @@
+/* Add Menu Container */
+.add-menu-container {
+  max-width: 500px;
+  margin:180px  auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #F0ECCF;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-menu-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Form Group */
+.add-menu-group {
+  margin-bottom: 15px;
+}
+
+.add-menu-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.add-menu-group input {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Submit Button */
+.add-menu-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #FFB100;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.add-menu-form button:disabled {
+  background-color: #FBC252;
+  cursor: not-allowed;
+}
+
+.add-menu-form button:hover:not(:disabled) {
+  background-color: #FFB100;
+}
+
+/* Error Message */
+.error-message {
+  color: #ff4d4d;
+  text-align: center;
+  margin-top: 10px;
+}

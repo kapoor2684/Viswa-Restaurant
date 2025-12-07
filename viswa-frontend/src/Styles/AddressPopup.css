@@ -1,0 +1,116 @@
+.address-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .address-popup-content {
+    background: #F0ECCF;
+    padding: 20px;
+    width: 400px;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .address-popup-content span {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .saved-addresses {
+    max-height: 150px;
+    overflow-y: auto;
+    margin: 10px 0;
+    border: 1px solid #FFB100;
+    padding: 5px;
+    border-radius: 5px;
+    scrollbar-width: thin;   
+    scrollbar-color: #FFB100 #f3f3f3; 
+}
+
+/* WebKit Browsers (Chrome, Safari) */
+.saved-addresses::-webkit-scrollbar {
+    width: 5px;  
+}
+
+.saved-addresses::-webkit-scrollbar-track {
+    background: #f3f3f3; 
+    border-radius: 5px;
+}
+
+.saved-addresses::-webkit-scrollbar-thumb {
+    background: #FFB100; /* Scroll thumb color */
+    border-radius: 5px;
+}
+
+.saved-addresses::-webkit-scrollbar-thumb:hover {
+    background: #e09b00; /* Darker shade on hover */
+}
+
+  .address-option {
+    padding: 8px;
+    border-bottom: 1px solid #FFB100;
+    cursor: pointer;
+  }
+  
+  .address-option:last-child {
+    border-bottom: none;
+  }
+  
+  .address-option:hover,
+  .address-option.selectedaddress {
+    background-color: #FBC252;
+    color: whitesmoke;
+    transform: scale(1.02);
+  }
+  
+  textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .address-popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .confirm-btn,
+  .cancel-btn {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .confirm-btn {
+    background: #FFB100;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background: #c73030;
+    color: whitesmoke;
+  }
+  
+  .confirm-btn:hover {
+    background: none;
+    border: 1px solid #FFB100;
+    color: #FFB100;
+  }
+  
+  .cancel-btn:hover {
+    background: #710b0b;
+  }
+  

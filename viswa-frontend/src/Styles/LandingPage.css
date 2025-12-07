@@ -1,0 +1,38 @@
+.landing-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.customer-section {
+    background-color: #f8d7da;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .restaurateur-section {
+    background-color: #d4edda;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .nav-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #963b45ac;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    background-color: #c82333;
+  }
+  
